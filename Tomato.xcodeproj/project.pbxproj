@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		109F39BD503EB88B859490BA /* Pods_TomatoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD53D719921751EB9509B7C2 /* Pods_TomatoUITests.framework */; };
+		705B25B67E8029674B04B197 /* Pods_TomatoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD75D178A9A175B26A32419 /* Pods_TomatoTests.framework */; };
 		D6B628471FF3DA4A00CF14C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B628461FF3DA4A00CF14C2 /* AppDelegate.swift */; };
 		D6B628491FF3DA4A00CF14C2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6B628481FF3DA4A00CF14C2 /* GameScene.sks */; };
 		D6B6284B1FF3DA4A00CF14C2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6B6284A1FF3DA4A00CF14C2 /* Actions.sks */; };
@@ -15,8 +17,7 @@
 		D6B628521FF3DA4A00CF14C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B628501FF3DA4A00CF14C2 /* Main.storyboard */; };
 		D6B628541FF3DA4A00CF14C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B628531FF3DA4A00CF14C2 /* Assets.xcassets */; };
 		D6B628571FF3DA4A00CF14C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B628551FF3DA4A00CF14C2 /* LaunchScreen.storyboard */; };
-		D6B628621FF3DA4B00CF14C2 /* TomatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B628611FF3DA4B00CF14C2 /* TomatoTests.swift */; };
-		D6B6286D1FF3DA4B00CF14C2 /* TomatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B6286C1FF3DA4B00CF14C2 /* TomatoUITests.swift */; };
+		F05A1DF4AE9559609891E046 /* Pods_Tomato.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1C166DCEFFD3368033072A /* Pods_Tomato.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FEF3A9255A1942432D59BF0 /* Pods-Tomato.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tomato.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tomato/Pods-Tomato.debug.xcconfig"; sourceTree = "<group>"; };
+		4D20F5C78E5AF70C0EC7EC16 /* Pods-TomatoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TomatoUITests/Pods-TomatoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C1C166DCEFFD3368033072A /* Pods_Tomato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tomato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63069FA36654EEFB15B799B7 /* Pods-TomatoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TomatoUITests/Pods-TomatoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CD75D178A9A175B26A32419 /* Pods_TomatoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TomatoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CBFB0B8836795E09EF1884 /* Pods-TomatoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TomatoTests/Pods-TomatoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD53D719921751EB9509B7C2 /* Pods_TomatoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TomatoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51AA81A5AE2F5D7949E2530 /* Pods-Tomato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tomato.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tomato/Pods-Tomato.release.xcconfig"; sourceTree = "<group>"; };
 		D6B628431FF3DA4A00CF14C2 /* Tomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B628461FF3DA4A00CF14C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6B628481FF3DA4A00CF14C2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -48,11 +57,8 @@
 		D6B628561FF3DA4A00CF14C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6B628581FF3DA4A00CF14C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6B6285D1FF3DA4B00CF14C2 /* TomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6B628611FF3DA4B00CF14C2 /* TomatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoTests.swift; sourceTree = "<group>"; };
-		D6B628631FF3DA4B00CF14C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6B628681FF3DA4B00CF14C2 /* TomatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6B6286C1FF3DA4B00CF14C2 /* TomatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoUITests.swift; sourceTree = "<group>"; };
-		D6B6286E1FF3DA4B00CF14C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0A288F0F2C57D7906AEAFD /* Pods-TomatoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TomatoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TomatoTests/Pods-TomatoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05A1DF4AE9559609891E046 /* Pods_Tomato.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				705B25B67E8029674B04B197 /* Pods_TomatoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,19 +82,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109F39BD503EB88B859490BA /* Pods_TomatoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B040A1F19FCF8EA1A39AF5C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C1C166DCEFFD3368033072A /* Pods_Tomato.framework */,
+				6CD75D178A9A175B26A32419 /* Pods_TomatoTests.framework */,
+				AD53D719921751EB9509B7C2 /* Pods_TomatoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6B6283A1FF3DA4A00CF14C2 = {
 			isa = PBXGroup;
 			children = (
 				D6B628451FF3DA4A00CF14C2 /* Tomato */,
-				D6B628601FF3DA4B00CF14C2 /* TomatoTests */,
-				D6B6286B1FF3DA4B00CF14C2 /* TomatoUITests */,
 				D6B628441FF3DA4A00CF14C2 /* Products */,
+				F9D8DD1FF6AF63691C5B0CD1 /* Pods */,
+				B040A1F19FCF8EA1A39AF5C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,22 +135,17 @@
 			path = Tomato;
 			sourceTree = "<group>";
 		};
-		D6B628601FF3DA4B00CF14C2 /* TomatoTests */ = {
+		F9D8DD1FF6AF63691C5B0CD1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D6B628611FF3DA4B00CF14C2 /* TomatoTests.swift */,
-				D6B628631FF3DA4B00CF14C2 /* Info.plist */,
+				1FEF3A9255A1942432D59BF0 /* Pods-Tomato.debug.xcconfig */,
+				B51AA81A5AE2F5D7949E2530 /* Pods-Tomato.release.xcconfig */,
+				EC0A288F0F2C57D7906AEAFD /* Pods-TomatoTests.debug.xcconfig */,
+				A3CBFB0B8836795E09EF1884 /* Pods-TomatoTests.release.xcconfig */,
+				63069FA36654EEFB15B799B7 /* Pods-TomatoUITests.debug.xcconfig */,
+				4D20F5C78E5AF70C0EC7EC16 /* Pods-TomatoUITests.release.xcconfig */,
 			);
-			path = TomatoTests;
-			sourceTree = "<group>";
-		};
-		D6B6286B1FF3DA4B00CF14C2 /* TomatoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D6B6286C1FF3DA4B00CF14C2 /* TomatoUITests.swift */,
-				D6B6286E1FF3DA4B00CF14C2 /* Info.plist */,
-			);
-			path = TomatoUITests;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6B628711FF3DA4B00CF14C2 /* Build configuration list for PBXNativeTarget "Tomato" */;
 			buildPhases = (
+				656EE0A58BC326185175E9DB /* [CP] Check Pods Manifest.lock */,
 				D6B6283F1FF3DA4A00CF14C2 /* Sources */,
 				D6B628401FF3DA4A00CF14C2 /* Frameworks */,
 				D6B628411FF3DA4A00CF14C2 /* Resources */,
+				BE6537703D9717F3A7B7BC84 /* [CP] Embed Pods Frameworks */,
+				2C0CACD83E2D3779D807CDDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6B628741FF3DA4B00CF14C2 /* Build configuration list for PBXNativeTarget "TomatoTests" */;
 			buildPhases = (
+				A7EFECE1D8B321CA9A1BC66D /* [CP] Check Pods Manifest.lock */,
 				D6B628591FF3DA4B00CF14C2 /* Sources */,
 				D6B6285A1FF3DA4B00CF14C2 /* Frameworks */,
 				D6B6285B1FF3DA4B00CF14C2 /* Resources */,
+				CC859F42DF536A748C534CB0 /* [CP] Embed Pods Frameworks */,
+				77A299AB3789F22474602ECA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6B628771FF3DA4B00CF14C2 /* Build configuration list for PBXNativeTarget "TomatoUITests" */;
 			buildPhases = (
+				66AAD537FD7BBBE5FCE59E72 /* [CP] Check Pods Manifest.lock */,
 				D6B628641FF3DA4B00CF14C2 /* Sources */,
 				D6B628651FF3DA4B00CF14C2 /* Frameworks */,
 				D6B628661FF3DA4B00CF14C2 /* Resources */,
+				BE59D79C77924F3C521A6CA3 /* [CP] Embed Pods Frameworks */,
+				6D8A80B853088FDC0F1B58FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +288,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C0CACD83E2D3779D807CDDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tomato/Pods-Tomato-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656EE0A58BC326185175E9DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tomato-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66AAD537FD7BBBE5FCE59E72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TomatoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8A80B853088FDC0F1B58FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TomatoUITests/Pods-TomatoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A299AB3789F22474602ECA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TomatoTests/Pods-TomatoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7EFECE1D8B321CA9A1BC66D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TomatoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE59D79C77924F3C521A6CA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TomatoUITests/Pods-TomatoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE6537703D9717F3A7B7BC84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tomato/Pods-Tomato-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC859F42DF536A748C534CB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TomatoTests/Pods-TomatoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6B6283F1FF3DA4A00CF14C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -280,7 +450,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B628621FF3DA4B00CF14C2 /* TomatoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +457,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B6286D1FF3DA4B00CF14C2 /* TomatoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,11 +604,13 @@
 		};
 		D6B628721FF3DA4B00CF14C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEF3A9255A1942432D59BF0 /* Pods-Tomato.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9JARSYXCR4;
 				INFOPLIST_FILE = Tomato/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Shopy.Tomato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,11 +621,13 @@
 		};
 		D6B628731FF3DA4B00CF14C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51AA81A5AE2F5D7949E2530 /* Pods-Tomato.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9JARSYXCR4;
 				INFOPLIST_FILE = Tomato/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Shopy.Tomato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -466,6 +638,7 @@
 		};
 		D6B628751FF3DA4B00CF14C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0A288F0F2C57D7906AEAFD /* Pods-TomatoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +656,7 @@
 		};
 		D6B628761FF3DA4B00CF14C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CBFB0B8836795E09EF1884 /* Pods-TomatoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +674,7 @@
 		};
 		D6B628781FF3DA4B00CF14C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63069FA36654EEFB15B799B7 /* Pods-TomatoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +691,7 @@
 		};
 		D6B628791FF3DA4B00CF14C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D20F5C78E5AF70C0EC7EC16 /* Pods-TomatoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
